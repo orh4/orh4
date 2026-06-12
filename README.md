@@ -1,10 +1,11 @@
 | stats | values |
 --- | --- | 
-cpu temperatures: | 39°C |
-energy rate: | 4.04 W |
-battery percentage: | 95% |
-battery time left: | 10.0 hours |
-uptime: | 7 hours, 1 minute |
-latency (from router's ip): | 4.059 ms |
+cpu temperatures: | __CPU_TEMP__ |
+energy rate: | __ENERGY_RATE__ |
+battery percentage: | __BATTERY_PERCENTAGE__ |
+battery time left: | __BATTERY_TIME_LEFT__ |
+uptime: | __UPTIME__ |
+latency (from router's ip): | __LATENCY__ |
 
-- last updated: 12/06/2026 @ 14:58:51
+- last updated: __LAST_UPDATED__
+
