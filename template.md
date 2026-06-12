@@ -1,6 +1,6 @@
 My homelab's stats (ASUS Vivobook 15):
 
-![LAST UPDATED](https://img.shields.io/badge/LAST%20UPDATED%3A%20__BADGES_LAST_UPDATED__-purple)
+![LAST UPDATED](https://img.shields.io/badge/LAST%20UPDATED%3A%20__BADGES_LAST_UPDATED__-gray)
 
 ![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-__BADGES_CPU_TEMP__-blue)
 ![ENERGY RATE](https://img.shields.io/badge/ENERGY%20RATE-__BADGES_ENERGY_RATE__-red)
