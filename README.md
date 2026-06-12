@@ -1,9 +1,9 @@
 | stats | values |
 --- | --- | 
 cpu temperatures: | __CPU_TEMPERATURE__ |
-battery percentage: | __BATTERY_PERCENTAGE__ |
-battery time left: | __BATTERY_TIME_LEFT__ |
-uptime: | __UPTIME__ |
-latency (from router's ip): | __LATENCY__ |
+battery percentage: | 97% |
+battery time left: | 10.0 hours |
+uptime: | 6 hours, 15 minutes |
+latency (from router's ip): | 3.579 ms |
 
-- last updated (DD/MM/YYYY, HH:MM:SS): __LAST_UPDATED__
+- last updated (DD/MM/YYYY, HH:MM:SS): 12/06/2026 @ 14:13:33
