@@ -1,1 +1,1 @@
-cpu temperatures: __CPU_TEMP__
+cpu temperatures: 39°C
