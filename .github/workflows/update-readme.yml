@@ -32,6 +32,13 @@ jobs:
 
 
           sed -i "s|__CPU_TEMP__|$CPU_TEMP|g" README.md
+          sed -i "s|__ENERGY_RATE__|$CPU_TEMP|g" README.md
+          sed -i "s|__BATTERY_PERCENTAGE__|$CPU_TEMP|g" README.md
+          sed -i "s|__BATTERY_TIME__|$CPU_TEMP|g" README.md
+          sed -i "s|__UPTIME__|$CPU_TEMP|g" README.md
+          sed -i "s|__LATENCY__|$CPU_TEMP|g" README.md
+          sed -i "s|__LAST_UPDATED__|$CPU_TEMP|g" README.md
+
 
       - name: commit and push changes
         run: |
