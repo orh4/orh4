@@ -147,6 +147,8 @@ cd "$REPO_PATH" || exit 1
 # The "!" before the command inverts the output exit code. (i.e. If there is a change in the file, it will output the exit code 1, which then gets inverted into a 0, running the commands in the below if statement.)
 # In shell, and exit code "0" marks a "true" value while an exit code "1" marks a "false" value.
 if ! git diff --quiet stats.json; then
+
+	git pull origin base --rebase
 	# Adds the given output JSON into the commit.
 	git add stats.json
 
