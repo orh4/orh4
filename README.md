@@ -1,6 +1,7 @@
 | stats | values |
 --- | --- | 
 cpu temperatures: | __CPU_TEMP__ |
+energy rate: | __ENERGY_RATE__ |
 battery percentage: | __BATTERY_PERCENTAGE__ |
 battery time left: | __BATTERY_TIME_LEFT__ |
 uptime: | __UPTIME__ |
