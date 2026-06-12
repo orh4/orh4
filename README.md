@@ -4,4 +4,4 @@ battery time left: __BATTERY_TIME__
 uptime: __UPTIME__
 latency (from router's ip): __LATENCY__
 
-last updated (YYYY/MM/DD, HH:MM:SS): __LAST_UPDATED_
+last updated (YYYY/MM/DD, HH:MM:SS): __LAST_UPDATED__
