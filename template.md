@@ -9,4 +9,4 @@ latency (from router's ip): | __LATENCY__ |
 
 - last updated: __LAST_UPDATED__
 
-updated server stats powered by: [server-stats-github-badges](https://github.com/orh4/server-stats-github-badges)
+updated server stats powered by: [server-stats-github-profile](https://github.com/orh4/server-stats-github-profile)
