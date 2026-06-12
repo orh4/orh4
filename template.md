@@ -1,6 +1,6 @@
 | stats | values |
 --- | --- | 
-cpu temperatures: | __CPU_TEMP__ |
+cpu temperatures: | __CPU_TEMP__ | [CPU TEMP]{https://img.shields.io/badge/CPU%20TEMP-__CPU_TEMP__-blue}
 energy rate: | __ENERGY_RATE__ |
 battery percentage: | __BATTERY_PERCENTAGE__ |
 battery time left: | __BATTERY_TIME_LEFT__ |
