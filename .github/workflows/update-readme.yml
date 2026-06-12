@@ -21,15 +21,7 @@ jobs:
       - name: read server stats JSON output and update README
         run: |
           CPU_TEMP=$(jq -r '.cpu_temperature' stats.json)
-
-          cat > README.tmp.md << 'EOF'
-          
-          cpu temperature: [CPU_TEMP_PLACEHOLDER]
-          EOF
-
-          sed -i "s|[CPU_TEMP_PLACEHOLDER]|$CPU_TEMP|g" README.tmp.md
-
-          mv README.tmp.md README.md
+          echo "cpu temperature: $CPU_TEMP" >> README.md
 
       - name: commit changes
         run: |
