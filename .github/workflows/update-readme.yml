@@ -1,0 +1,49 @@
+name: Update README with Server Stats
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'stats.json' ]
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: read server stats JSON output and update README
+        run: |
+          CPU_TEMP=$(jq -r '.cpu_temperature' stats.json)
+          ENERGY_RATE=$(jq -r '.energy_rate' stats.json)
+          BATTERY_PCT=$(jq -r '.battery_percentage' stats.json)
+          BATTERY_TIME=$(jq -r '.battery_time_left' stats.json)
+          UPTIME=$(jq -r '.uptime' stats.json)
+          LATENCY=$(jq -r '.latency' stats.json)
+          LAST_UPDATED=$(jq -r '.last_updated' stats.json)
+
+          cat > README.tmp.md << 'EOF'
+          
+          cpu temperature: [CPU_TEMP_PLACEHOLDER]
+
+          *Last updated: [LAST_UPDATED_PLACEHOLDER]*
+          EOF
+
+          sed -i "s|[CPU_TEMP_PLACEHOLDER]|$CPU_TEMP|g" README.tmp.md
+          sed -i "s|[LAST_UPDATED_PLACEHOLDER]|$LAST_UPDATED|g" README.tmp.md
+
+          mv README.tmp.md README.md
+
+      - name: commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "[AUTOMATED] update README with latest server stats"
+          git push
