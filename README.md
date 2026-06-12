@@ -1,9 +1,9 @@
 My homelab's stats (ASUS Vivobook 15):
 
-![LAST UPDATED](https://img.shields.io/badge/LAST%20UPDATED%3A%20__BADGES_LAST_UPDATED__-gray)
+![LAST UPDATED](https://img.shields.io/badge/LAST%20UPDATED%3A%2012/06/2026%20@%2019:01:11-gray)
 
-![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-__BADGES_CPU_TEMP__-blue)
-![ENERGY RATE](https://img.shields.io/badge/ENERGY%20RATE-__BADGES_ENERGY_RATE__-red)
-![BATTERY PERCENTAGE](https://img.shields.io/badge/BATTERY%20PERCENTAGE-__BADGES_BATTERY_PERCENTAGE__-green)
-![UPTIME](https://img.shields.io/badge/UPTIME-__BADGES_UPTIME__-white)
-![LATENCY](https://img.shields.io/badge/LATENCY-__BADGES_LATENCY__-orange)
+![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-35°C-blue)
+![ENERGY RATE](https://img.shields.io/badge/ENERGY%20RATE-3.649%20W-red)
+![BATTERY PERCENTAGE](https://img.shields.io/badge/BATTERY%20PERCENTAGE-86%25-green)
+![UPTIME](https://img.shields.io/badge/UPTIME-11%20hours%2C%203%20minutes-white)
+![LATENCY](https://img.shields.io/badge/LATENCY-5.205%20ms-orange)
