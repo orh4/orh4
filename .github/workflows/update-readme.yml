@@ -22,6 +22,14 @@ jobs:
 
       - name: Read stats.json and update README
         run: |
+          git fetch origin main
+          git checkout origin/main -- stats.json || echo "stats.json not found in remote"
+
+          if [ ! -f stats.json ]; then
+            echo "JSON output not found. Exiting..."
+            exit 1
+          fi
+
           CPU_TEMP=$(jq -r '.cpu_temperature' stats.json)
           ENERGY_RATE=$(jq -r '.energy_rate' stats.json)
           BATTERY_PERCENTAGE=$(jq -r '.battery_percentage' stats.json)
