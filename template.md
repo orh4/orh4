@@ -1,5 +1,3 @@
-[![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)
-
 My homelab's stats (ASUS Vivobook 15):
 
 ![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-__BADGES_CPU_TEMP__-blue)
