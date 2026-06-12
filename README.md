@@ -1,2 +1,3 @@
 
 cpu temperature: [39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C39°C]
+cpu temperature: 39°C
