@@ -140,7 +140,7 @@ cat $JSON_PATH
 
 ### GIT PUSH ###
 
-mv README.template README.md
+cat template.md > README.md
 
 cd "$REPO_PATH" || exit 1
 
@@ -158,6 +158,7 @@ git stash pop --quiet
 if ! git diff --quiet stats.json; then
 	# Adds the given output JSON into the commit.
 	git add stats.json
+	git add README.md
 
 	# Adds the configured commit message (configured via setting the "COMMIT_MSG" variable.)
 	git commit -m "$COMMIT_MSG"
