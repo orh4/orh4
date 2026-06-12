@@ -9,4 +9,4 @@ latency (from router's ip): | 4.110 ms |
 
 - last updated: 12/06/2026 @ 16:08:01
 
-updated server stats powered by: [server-stats-github-badges](https://github.com/orh4/server-stats-github-badges)
+updated server stats powered by: [server-stats-github-profile](https://github.com/orh4/server-stats-github-profile)
