@@ -1,12 +1,12 @@
 | stats | values |
 --- | --- | 
-cpu temperatures: | 40°C |
-energy rate: | 3.898 W |
-battery percentage: | 92% |
-battery time left: | 10.0 hours |
-uptime: | 8 hours, 31 minutes |
-latency (from router's ip): | 4.445 ms |
+cpu temperatures: | __CPU_TEMP__ |
+energy rate: | __ENERGY_RATE__ |
+battery percentage: | __BATTERY_PERCENTAGE__ |
+battery time left: | __BATTERY_TIME_LEFT__ |
+uptime: | __UPTIME__ |
+latency (from router's ip): | __LATENCY__ |
 
-- last updated: 12/06/2026 @ 16:29:11
+- last updated: __LAST_UPDATED__
 
-updated server stats powered by: [![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)
+[![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)
