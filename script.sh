@@ -140,6 +140,8 @@ cat $JSON_PATH
 
 ### GIT PUSH ###
 
+mv README.template README.md
+
 cd "$REPO_PATH" || exit 1
 
 # Checks if there are any differences between the local repo/directory and the repo up on GitHub.
@@ -147,11 +149,11 @@ cd "$REPO_PATH" || exit 1
 # The "!" before the command inverts the output exit code. (i.e. If there is a change in the file, it will output the exit code 1, which then gets inverted into a 0, running the commands in the below if statement.)
 # In shell, and exit code "0" marks a "true" value while an exit code "1" marks a "false" value.
 
-git stash pull -m "auto-stash before pull" --quiet
+git stash --quiet
 
 git pull origin main --rebase --quiet
 
-git stash pop --quiet || echo "no stashed changes to apply."
+git stash pop --quiet
 
 if ! git diff --quiet stats.json; then
 	# Adds the given output JSON into the commit.
