@@ -1,4 +1,6 @@
-My homelab's stats (ASUS Vivobook 15) (powered by [![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)):
+[![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)
+
+My homelab's stats (ASUS Vivobook 15):
 
 ![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-__BADGES_CPU_TEMP__-blue)
 ![ENERGY RATE](https://img.shields.io/badge/ENERGY%20RATE-__BADGES_ENERGY_RATE__-red)
