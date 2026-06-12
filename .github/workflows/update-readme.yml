@@ -37,8 +37,6 @@ jobs:
           UPTIME=$(jq -r '.uptime' stats.json)
           LATENCY=$(jq -r '.latency' stats.json)
           LAST_UPDATED=$(jq -r '.last_updated' stats.json)
-          
-
 
           sed -i "s|__CPU_TEMP__|$CPU_TEMP|g" README.md
           sed -i "s|__ENERGY_RATE__|$ENERGY_RATE|g" README.md

@@ -158,6 +158,8 @@ git stash pop --quiet
 if ! git diff --quiet stats.json; then
 	# Adds the given output JSON into the commit.
 	git add stats.json
+
+	cat template.md > README.md
 	git add README.md
 
 	# Adds the configured commit message (configured via setting the "COMMIT_MSG" variable.)
@@ -172,3 +174,4 @@ if ! git diff --quiet stats.json; then
 else
 	echo "no changes to commit."
 fi
+
