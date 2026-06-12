@@ -1,18 +1,18 @@
 | stats | values |
 --- | --- | 
-cpu temperatures: | 40°C |
-energy rate: | 3.792 |
-battery percentage: | 90% |
-battery time left: | 10.0 hours |
-uptime: | 9 hours, 53 minutes |
-latency (from router's ip): | 5.966 |
+cpu temperatures: | __CPU_TEMP__ |
+energy rate: | __ENERGY_RATE__ |
+battery percentage: | __BATTERY_PERCENTAGE__ |
+battery time left: | __BATTERY_TIME_LEFT__ |
+uptime: | __UPTIME__ |
+latency (from router's ip): | __LATENCY__ |
 
-- last updated: 12/06/2026 @ 17:51:08
+- last updated: __LAST_UPDATED__
 
-![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-40°C-blue)
-![ENERGY RATE](https://img.shields.io/badge/ENERGY%20RATE-3.792W-red)
-![BATTERY PERCENTAGE](https://img.shields.io/badge/BATTERY%20PERCENTAGE-90%25-green)
-![UPTIME](https://img.shields.io/badge/UPTIME-9%20hours%2C%2053%20minutes-white)
-![LATENCY](https://img.shields.io/badge/LATENCY-5.966ms-orange)
+![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-__CPU_TEMP__-blue)
+![ENERGY RATE](https://img.shields.io/badge/ENERGY%20RATE-__ENERGY_RATE__W-red)
+![BATTERY PERCENTAGE](https://img.shields.io/badge/BATTERY20PERCENTAGE-__BATTERY_PERCENTAGE__-green)
+![UPTIME](https://img.shields.io/badge/UPTIME-__UPTIME__-white)
+![LATENCY](https://img.shields.io/badge/LATENCY-__LATENCY__ms-orange)
 
 [![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)
