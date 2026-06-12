@@ -1,11 +1,11 @@
-cpu temperatures: 40°C
+cpu temperatures: __CPU_TEMP__
 
-battery percentage: 98%
+battery percentage: __BATTERY_PERCENTAGE__
 
-battery time left: 10.0 hours
+battery time left: __BATTERY_TIME_LEFT__
 
-uptime: 5 hours, 44 minutes 
+uptime: __UPTIME__
 
-latency (from router's ip): 4.866 ms
+latency (from router's ip): __LATENCY__
 
-last updated (YYYY/MM/DD, HH:MM:SS): 12/06/2026 @ 13:42:32
+last updated (YYYY/MM/DD, HH:MM:SS): __LAST_UPDATED__
