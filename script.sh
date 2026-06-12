@@ -146,9 +146,14 @@ cd "$REPO_PATH" || exit 1
 # The tag "--quiet" makes the whole "git diff" return only an exit code. 0 is there are no changes, and 1 if there are changes.
 # The "!" before the command inverts the output exit code. (i.e. If there is a change in the file, it will output the exit code 1, which then gets inverted into a 0, running the commands in the below if statement.)
 # In shell, and exit code "0" marks a "true" value while an exit code "1" marks a "false" value.
-if ! git diff --quiet stats.json; then
 
-	git pull origin base --rebase
+git stash pull -m "auto-stash before pull" --quiet
+
+git pull origin main --rebase --quiet
+
+git stash pop --quiet || echo "no stashed changes to apply."
+
+if ! git diff --quiet stats.json; then
 	# Adds the given output JSON into the commit.
 	git add stats.json
 
@@ -156,9 +161,11 @@ if ! git diff --quiet stats.json; then
 	git commit -m "$COMMIT_MSG"
 	
 	# Pushes the commit to GitHub from origin (local files) to main (main branch on GitHub) and specifies where it got pushed to.
-	git push origin main 2>&1 | grep -v "pushed to: github.com"
-
-	echo "pushed to configured github repo."
+	if git push origin main 2>&1; then
+		echo "pushed to configured github repo."
+	else
+		echo "push failed. remote may have new commits."
+	fi
 else
 	echo "no changes to commit."
 fi

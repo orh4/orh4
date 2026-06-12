@@ -29,12 +29,13 @@ jobs:
           UPTIME=$(jq -r '.uptime' stats.json)
           LATENCY=$(jq -r '.latency' stats.json)
           LAST_UPDATED=$(jq -r '.last_updated' stats.json)
+          
 
 
           sed -i "s|__CPU_TEMP__|$CPU_TEMP|g" README.md
           sed -i "s|__ENERGY_RATE__|$ENERGY_RATE|g" README.md
           sed -i "s|__BATTERY_PERCENTAGE__|$BATTERY_PERCENTAGE|g" README.md
-          sed -i "s|__BATTERY_TIME__|$BATTERY_TIME_LEFT|g" README.md
+          sed -i "s|__BATTERY_TIME_LEFT__|$BATTERY_TIME_LEFT|g" README.md
           sed -i "s|__UPTIME__|$UPTIME|g" README.md
           sed -i "s|__LATENCY__|$LATENCY|g" README.md
           sed -i "s|__LAST_UPDATED__|$LAST_UPDATED|g" README.md
