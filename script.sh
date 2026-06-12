@@ -123,10 +123,10 @@ EOF
 )
 
 # The path to the repo/directory that will be pushed to GitHub.
-REPO_PATH="~/orh4"
+REPO_PATH="/home/orh4/orh4"
 
 # Path as to where the converted JSON output will be saved.
-JSON_PATH="$REPO_PATH/data/stats.json"
+JSON_PATH="$REPO_PATH/stats.json"
 
 # Makes the file in the specified directory (also makes the directory if not already made.)
 mkdir -p "$(dirname "$JSON_PATH")"
