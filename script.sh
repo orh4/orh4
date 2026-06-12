@@ -110,14 +110,13 @@ CURRENT_TIME=$(date +"%d/%m/%Y @ %H:%M:%S")
 # Outputs the values of each stat into a JSON format.
 JSON_STRING=$(cat <<EOF
 {
-	"last_updated": "$CURRENT_TIME",
-
-	"cpu_temperature": "$CPU_TEMP°C",
-	"energy_rate": "$ENERGY_RATE",
-	"battery_percentage": "$BATTERY_PERCENTAGE",
-	"battery_time_left": "$BATTERY_TIME_LEFT",
-	"uptime": "$UPTIME",
-	"latency": "$LATENCY"
+	"last_updated":"$CURRENT_TIME",
+	"cpu_temperature":"$CPU_TEMP°C",
+	"energy_rate":"$ENERGY_RATE",
+	"battery_percentage":"$BATTERY_PERCENTAGE",
+	"battery_time_left":"$BATTERY_TIME_LEFT",
+	"uptime":"$UPTIME",
+	"latency":"$LATENCY"
 }
 EOF
 )
@@ -128,11 +127,19 @@ REPO_PATH="/home/orh4/orh4"
 # Path as to where the converted JSON output will be saved.
 JSON_PATH="$REPO_PATH/stats.json"
 
+
+BADGES_JSON_PATH="$REPO_PATH/badges_stats.json"
+
 # Makes the file in the specified directory (also makes the directory if not already made.)
 mkdir -p "$(dirname "$JSON_PATH")"
 
 # Outputs the converted JSON output into the specified JSON path.
 echo "$JSON_STRING" > "$JSON_PATH"
+echo "$JSON_STRING" > "$BADGES_JSON_PATH"
+
+sed -i "s|%|%25|g" $BADGES_JSON_PATH
+sed -i "s|, |%2C%20|g" $BADGES_JSON_PATH
+sed -i "s| |%20|g" $BADGES_JSON_PATH
 
 # Just echoes/outputs the specified JSON path.
 echo "saved to: $JSON_PATH"
