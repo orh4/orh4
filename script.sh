@@ -105,7 +105,7 @@ done
 ### JSON FORMAT ###
 
 # Gets the current date and time.
-CURRENT_TIME=$(date +"%d/%m/%Y @ %H:%M:%S")
+CURRENT_TIME=$(date +"%d/%m/%Y @ %H:%M:%S UTC")
 
 # Outputs the values of each stat into a JSON format.
 JSON_STRING=$(cat <<EOF
@@ -165,6 +165,7 @@ git stash pop --quiet
 if ! git diff --quiet stats.json; then
 	# Adds the given output JSON into the commit.
 	git add stats.json
+	git add badges_stats.json
 
 	cat template.md > README.md
 	git add README.md

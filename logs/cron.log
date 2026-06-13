@@ -1,0 +1,170 @@
+getting cpu temperature...
+getting energy-rate...
+getting battery percentage...
+getting battery time left...
+getting uptime...
+getting ping... [ip: 192.168.1.1, count = 5, wait-time = 1 second(s)]
+- got CPU_TEMP!
+36
+- got ENERGY_RATE!
+2.63 W
+- got BATTERY_PERCENTAGE!
+62%
+- got BATTERY_TIME_LEFT!
+10.0 hours
+- got UPTIME!
+1 day, 42 minutes
+- got LATENCY!
+6.307 ms
+saved to: /home/orh4/orh4/stats.json
+{
+	"last_updated":"13/06/2026 @ 08:40:05",
+	"cpu_temperature":"36°C",
+	"energy_rate":"2.63 W",
+	"battery_percentage":"62%",
+	"battery_time_left":"10.0 hours",
+	"uptime":"1 day, 42 minutes",
+	"latency":"6.307 ms"
+}
+cat: template.md: No such file or directory
+[main 3c750b2] [AUTOMATED] updated: 2026/06/13 @ 08:40:01
+ 3 files changed, 16 insertions(+), 16 deletions(-)
+To https://github.com/orh4/orh4.git
+   c77c41c..3c750b2  main -> main
+pushed to configured github repo.
+getting cpu temperature...
+getting energy-rate...
+getting battery percentage...
+getting battery time left...
+getting uptime...
+getting ping... [ip: 192.168.1.1, count = 5, wait-time = 1 second(s)]
+- got CPU_TEMP!
+36
+- got ENERGY_RATE!
+2.595 W
+- got BATTERY_PERCENTAGE!
+62%
+- got BATTERY_TIME_LEFT!
+10.0 hours
+- got UPTIME!
+1 day, 1 hour, 2 minutes
+- got LATENCY!
+6.150 ms
+saved to: /home/orh4/orh4/stats.json
+{
+	"last_updated":"13/06/2026 @ 09:00:05",
+	"cpu_temperature":"36°C",
+	"energy_rate":"2.595 W",
+	"battery_percentage":"62%",
+	"battery_time_left":"10.0 hours",
+	"uptime":"1 day, 1 hour, 2 minutes",
+	"latency":"6.150 ms"
+}
+cat: template.md: No such file or directory
+[main 4f9d37d] [AUTOMATED] updated: 2026/06/13 @ 09:00:01
+ 3 files changed, 14 insertions(+), 14 deletions(-)
+To https://github.com/orh4/orh4.git
+   d351d0d..4f9d37d  main -> main
+pushed to configured github repo.
+getting cpu temperature...
+getting energy-rate...
+getting battery percentage...
+getting battery time left...
+getting uptime...
+getting ping... [ip: 192.168.1.1, count = 5, wait-time = 1 second(s)]
+- got CPU_TEMP!
+36
+- got ENERGY_RATE!
+2.559 W
+- got BATTERY_PERCENTAGE!
+61%
+- got BATTERY_TIME_LEFT!
+10.0 hours
+- got UPTIME!
+1 day, 1 hour, 32 minutes
+- got LATENCY!
+7.178 ms
+saved to: /home/orh4/orh4/stats.json
+{
+	"last_updated":"13/06/2026 @ 09:30:05",
+	"cpu_temperature":"36°C",
+	"energy_rate":"2.559 W",
+	"battery_percentage":"61%",
+	"battery_time_left":"10.0 hours",
+	"uptime":"1 day, 1 hour, 32 minutes",
+	"latency":"7.178 ms"
+}
+cat: template.md: No such file or directory
+[main 5979ea9] [AUTOMATED] updated: 2026/06/13 @ 09:30:01
+ 3 files changed, 16 insertions(+), 16 deletions(-)
+To https://github.com/orh4/orh4.git
+   ab61183..5979ea9  main -> main
+pushed to configured github repo.
+getting cpu temperature...
+getting energy-rate...
+getting battery percentage...
+getting battery time left...
+getting uptime...
+getting ping... [ip: 192.168.1.1, count = 5, wait-time = 1 second(s)]
+- got CPU_TEMP!
+36
+- got ENERGY_RATE!
+2.524 W
+- got BATTERY_PERCENTAGE!
+60%
+- got BATTERY_TIME_LEFT!
+10.0 hours
+- got UPTIME!
+1 day, 2 hours, 2 minutes
+- got LATENCY!
+5.730 ms
+saved to: /home/orh4/orh4/stats.json
+{
+	"last_updated":"13/06/2026 @ 10:00:05",
+	"cpu_temperature":"36°C",
+	"energy_rate":"2.524 W",
+	"battery_percentage":"60%",
+	"battery_time_left":"10.0 hours",
+	"uptime":"1 day, 2 hours, 2 minutes",
+	"latency":"5.730 ms"
+}
+cat: template.md: No such file or directory
+[main 708063f] [AUTOMATED] updated: 2026/06/13 @ 10:00:01
+ 3 files changed, 16 insertions(+), 16 deletions(-)
+To https://github.com/orh4/orh4.git
+   4c167de..708063f  main -> main
+pushed to configured github repo.
+getting cpu temperature...
+getting energy-rate...
+getting battery percentage...
+getting battery time left...
+getting uptime...
+getting ping... [ip: 192.168.1.1, count = 5, wait-time = 1 second(s)]
+- got CPU_TEMP!
+37
+- got ENERGY_RATE!
+2.476 W
+- got BATTERY_PERCENTAGE!
+59%
+- got BATTERY_TIME_LEFT!
+10.0 hours
+- got UPTIME!
+1 day, 2 hours, 32 minutes
+- got LATENCY!
+5.937 ms
+saved to: /home/orh4/orh4/stats.json
+{
+	"last_updated":"13/06/2026 @ 10:30:05 UTC",
+	"cpu_temperature":"37°C",
+	"energy_rate":"2.476 W",
+	"battery_percentage":"59%",
+	"battery_time_left":"10.0 hours",
+	"uptime":"1 day, 2 hours, 32 minutes",
+	"latency":"5.937 ms"
+}
+cat: template.md: No such file or directory
+[main de49978] [AUTOMATED] updated: 2026/06/13 @ 10:30:01
+ 3 files changed, 12 insertions(+), 12 deletions(-)
+To https://github.com/orh4/orh4.git
+   1b94aae..de49978  main -> main
+pushed to configured github repo.
