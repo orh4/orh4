@@ -8,6 +8,3 @@ my homelab's current stats (ASUS Vivobook 15):
 ![BATTERY PERCENTAGE](https://img.shields.io/badge/BATTERY%20PERCENTAGE-__BADGES_BATTERY_PERCENTAGE__-green)
 ![UPTIME](https://img.shields.io/badge/UPTIME-__BADGES_UPTIME__-white)
 ![LATENCY](https://img.shields.io/badge/LATENCY-__BADGES_LATENCY__-orange)
-
-automated via: 
-[![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-gray?logo=github)](https://github.com/orh4/server-stats-github-profile)
