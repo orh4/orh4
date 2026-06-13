@@ -1,7 +1,14 @@
-My homelab's stats (ASUS Vivobook 15) (*last updated: 13/06/2026 @ 10:00:05*)
+my homelab's stats (ASUS Vivobook 15):
 
-![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-36°C-blue)
-![ENERGY RATE](https://img.shields.io/badge/ENERGY%20RATE-2.524%20W-red)
-![BATTERY PERCENTAGE](https://img.shields.io/badge/BATTERY%20PERCENTAGE-60%25-green)
-![UPTIME](https://img.shields.io/badge/UPTIME-1%20day%2C%202%20hours%2C%202%20minutes-white)
-![LATENCY](https://img.shields.io/badge/LATENCY-5.730%20ms-orange)
+(*last updated: __LAST_UPDATED__* UTC)
+(automatically updated every 30 minutes)
+
+![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-__BADGES_CPU_TEMP__-blue)
+![ENERGY RATE](https://img.shields.io/badge/ENERGY%20RATE-__BADGES_ENERGY_RATE__-red)
+![BATTERY PERCENTAGE](https://img.shields.io/badge/BATTERY%20PERCENTAGE-__BADGES_BATTERY_PERCENTAGE__-green)
+![UPTIME](https://img.shields.io/badge/UPTIME-__BADGES_UPTIME__-white)
+![LATENCY](https://img.shields.io/badge/LATENCY-__BADGES_LATENCY__-orange)
+
+automated via: 
+
+[![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)
