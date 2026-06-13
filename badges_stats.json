@@ -1,9 +1,9 @@
 {
-	"last_updated":"13/06/2026%20@%2023:00:05%20UTC",
-	"cpu_temperature":"35°C",
-	"energy_rate":"1.504%20W",
-	"battery_percentage":"36%25",
+	"last_updated":"13/06/2026%20@%2023:30:05%20UTC",
+	"cpu_temperature":"34°C",
+	"energy_rate":"1.469%20W",
+	"battery_percentage":"35%25",
 	"battery_time_left":"10.0%20hours",
-	"uptime":"1%20day%2C%2015%20hours%2C%202%20minutes",
-	"latency":"6.277%20ms"
+	"uptime":"1%20day%2C%2015%20hours%2C%2032%20minutes",
+	"latency":"6.037%20ms"
 }
