@@ -9,4 +9,6 @@ my homelab's stats (ASUS Vivobook 15):
 ![UPTIME](https://img.shields.io/badge/UPTIME-__BADGES_UPTIME__-white)
 ![LATENCY](https://img.shields.io/badge/LATENCY-__BADGES_LATENCY__-orange)
 
-automated via: [![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)
+automated via: 
+
+[![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)
