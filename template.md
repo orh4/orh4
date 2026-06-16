@@ -1,7 +1,3 @@
-my projects:
-
-[![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)
----
 my homelab's current stats (ASUS Vivobook 15):
 
 (*last updated: __LAST_UPDATED__*)
@@ -12,3 +8,8 @@ my homelab's current stats (ASUS Vivobook 15):
 ![BATTERY PERCENTAGE](https://img.shields.io/badge/BATTERY%20PERCENTAGE-__BADGES_BATTERY_PERCENTAGE__-639b54)
 ![UPTIME](https://img.shields.io/badge/UPTIME-__BADGES_UPTIME__-3a4c34)
 ![LATENCY](https://img.shields.io/badge/LATENCY-__BADGES_LATENCY__-2b2519)
+
+---
+my projects:
+
+[![server-stats-github-profile](https://img.shields.io/badge/GitHub-server--stats--github--profile-blue?logo=github)](https://github.com/orh4/server-stats-github-profile)
