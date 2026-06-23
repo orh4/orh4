@@ -1,13 +1,13 @@
 my homelab's current stats (ASUS Vivobook 15):
 
-(*last updated: __LAST_UPDATED__*)
+(*last updated: 23/06/2026 @ 02:00:01 UTC*)
 (automatically updates every 30 minutes)
 
-![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-__BADGES_CPU_TEMP__-de5f8a)
-![ENERGY RATE](https://img.shields.io/badge/ENERGY%20RATE-__BADGES_ENERGY_RATE__-70af5f)
-![BATTERY PERCENTAGE](https://img.shields.io/badge/BATTERY%20PERCENTAGE-__BADGES_BATTERY_PERCENTAGE__-639b54)
-![UPTIME](https://img.shields.io/badge/UPTIME-__BADGES_UPTIME__-3a4c34)
-![LATENCY](https://img.shields.io/badge/LATENCY-__BADGES_LATENCY__-2b2519)
+![CPU TEMP](https://img.shields.io/badge/CPU%20TEMP-32°C-de5f8a)
+![ENERGY RATE](https://img.shields.io/badge/ENERGY%20RATE-3.211%20W-70af5f)
+![BATTERY PERCENTAGE](https://img.shields.io/badge/BATTERY%20PERCENTAGE-76%25-639b54)
+![UPTIME](https://img.shields.io/badge/UPTIME-1%20week%2C%201%20day%2C%2018%20hours%2C%2033%20minutes-3a4c34)
+![LATENCY](https://img.shields.io/badge/LATENCY-5.959%20ms-2b2519)
 
 ---
 my projects:
